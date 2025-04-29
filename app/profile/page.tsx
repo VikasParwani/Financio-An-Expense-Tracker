@@ -362,16 +362,17 @@ export default function ProfilePage() {
                                                         value={email}
                                                         onChange={(e) => setEmail(e.target.value)}
                                                         placeholder="your.email@example.com"
+                                                        readOnly
                                                     />
                                                 </div>
 
-                                                <Alert className="bg-amber-50 border-amber-200">
-                                                    <AlertCircle className="h-4 w-4 text-amber-500" />
-                                                    <AlertTitle className="text-amber-500">Note</AlertTitle>
-                                                    <AlertDescription className="text-amber-700">
-                                                        Changing your email may require re-verification.
-                                                    </AlertDescription>
-                                                </Alert>
+                                                {/*<Alert className="bg-amber-50 border-amber-200">*/}
+                                                {/*    <AlertCircle className="h-4 w-4 text-amber-500" />*/}
+                                                {/*    <AlertTitle className="text-amber-500">Note</AlertTitle>*/}
+                                                {/*    <AlertDescription className="text-amber-700">*/}
+                                                {/*        Changing your email may require re-verification.*/}
+                                                {/*    </AlertDescription>*/}
+                                                {/*</Alert>*/}
 
                                                 <Button
                                                     type="submit"

@@ -477,8 +477,8 @@ export default function DashboardPage() {
                                     id="amount"
                                     type="number"
                                     placeholder="0.00"
-                                    min="0.01"
-                                    step="0.01"
+                                    min="1.00"
+                                    step="1.00"
                                     value={transactionAmount}
                                     onChange={(e) => setTransactionAmount(e.target.value)}
                                     className="pl-10"
